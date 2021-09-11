@@ -21,8 +21,8 @@ const makeGalleryMarkup = ({ url, alt }) => {
     </li>`;
 }
 
-const val = images.map(makeGalleryMarkup).join('');
+const GalleryMarkup = images.map(makeGalleryMarkup).join('');
 
-listEl.insertAdjacentHTML('afterbegin',val )
+listEl.insertAdjacentHTML('afterbegin',GalleryMarkup )
 
 
