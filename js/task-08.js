@@ -4,9 +4,6 @@ const refs = {
   deleteBoxesBtn: document.querySelector('[data-action="destroy"]'),
   wrapperForBoxes: document.querySelector('#boxes'),
 };
-// refs.wrapperForBoxes.style.display = 'grid';
-// refs.wrapperForBoxes.style.gridTemplateColumns = 'repeat(5, 1fr)';
-// refs.wrapperForBoxes.style.gap = '15px';
 
 function createBoxes(amount) {
   let boxes;
